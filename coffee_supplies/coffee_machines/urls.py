@@ -5,6 +5,5 @@ from rest_framework.routers import DefaultRouter
 
 
 urlpatterns = [     
-    # path('', views.home, name='home'),     
-    path('abc', views.CreateMyModelView.as_view(), name='abc') 
+    path('machines/', views.show_machines) 
     ]
