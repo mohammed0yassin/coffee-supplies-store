@@ -1,7 +1,10 @@
-from django.shortcuts import render
 from .models import CoffeeMachine
-from .forms import MyModelForm
+from rest_framework import viewsets
+from .serializers import CoffeeMachineSerializer
+from django_filters.rest_framework import DjangoFilterBackend
 
-def show_machines(request):
-    machines = CoffeeMachine.objects.all()
-    return render(request, 'coffee_machines/machines.html', {'coffee_machines': machines})
+class CoffeeMachineMangement(viewsets.ModelViewSet):
+    queryset = CoffeeMachine.objects.all()
+    serializer_class = CoffeeMachineSerializer
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['product_type', 'water_line', 'brand_model']

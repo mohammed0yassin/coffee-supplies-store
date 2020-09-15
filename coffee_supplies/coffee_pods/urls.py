@@ -1,10 +1,11 @@
 from django.urls import path, include
-from coffee_machines import views
+from coffee_pods import views
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register(r'', views.CoffeeMachineMangement)
+router.register(r'', views.CoffeePodMangement)
 
 urlpatterns = [
-    path('machines/', include(router.urls)),
+    path('pods/', include(router.urls)),
 ]
+

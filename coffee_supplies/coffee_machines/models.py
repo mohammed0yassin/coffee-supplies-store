@@ -28,8 +28,3 @@ class CoffeeMachine(models.Model):
                                       default=baseModel)
 
     water_line = models.BooleanField(default=False)
-
-    # def get_sku(self):
-    #     rv = "{}{}-{:03d}-{:04d}".format(
-    #         self.product_type.,
-    #     )

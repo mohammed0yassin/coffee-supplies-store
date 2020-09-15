@@ -1,6 +1,6 @@
 from django.db import models
 
-class CoffePods(models.Model):
+class CoffeePod(models.Model):
     largePod = 'COFFEE_POD_LARGE'
     smallPod = 'COFFEE_POD_SMALL'
     espressoPod = 'ESPRESSO_POD'
@@ -19,11 +19,11 @@ class CoffePods(models.Model):
     flavor_mocha = 'COFFEE_FLAVOR_MOCHA'
     flavor_hazelnut = 'COFFEE_FLAVOR_HAZELNUT'
     FLAVOR_CHOICES = (
-        (favlor_vanilla, 'vanilla'),
-        (favlor_caramel, '3caramel'),
-        (favlor_psl, 'psl'),
-        (favlor_mocha, 'mocha'),
-        (favlor_hazelnut, 'hazelnut'),
+        (flavor_vanilla, 'vanilla'),
+        (flavor_caramel, 'caramel'),
+        (flavor_psl, 'psl'),
+        (flavor_mocha, 'mocha'),
+        (flavor_hazelnut, 'hazelnut'),
     )
     coffee_flavor = models.CharField(max_length=30,
                                       choices=FLAVOR_CHOICES,
