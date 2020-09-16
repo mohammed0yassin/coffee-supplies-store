@@ -44,6 +44,8 @@ class CoffeeMachineMangement(viewsets.ModelViewSet):
         elif water_line is True:
             water_line_code = '1'
  
-        sku = product_type_code + water_line_code + brand_model_code
+        sku = {
+            'SKU' : '{}'.format(product_type_code + water_line_code + brand_model_code) 
+            }
 
         return sku

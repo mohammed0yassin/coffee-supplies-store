@@ -42,7 +42,7 @@ class CoffeePodMangement(viewsets.ModelViewSet):
             coffee_flavor_code = '4'
 
         if pack_size == CoffeePod.one_dozen:
-            pack_size_code = '0'
+            pack_size_code = '1'
         elif pack_size == CoffeePod.three_dozen:
             pack_size_code = '3'
         elif pack_size == CoffeePod.five_dozen:
@@ -51,6 +51,7 @@ class CoffeePodMangement(viewsets.ModelViewSet):
             pack_size_code = '7'
 
  
-        sku = product_type_code + coffee_flavor_code + pack_size_code
-
+        sku = {
+            'SKU' : '{}'.format(product_type_code + coffee_flavor_code + pack_size_code) 
+            }
         return sku

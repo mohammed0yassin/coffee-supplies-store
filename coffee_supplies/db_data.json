@@ -1,0 +1,317 @@
+[
+{
+  "model": "coffee_machines.coffeemachine",
+  "pk": 1,
+  "fields": {
+    "product_type": "COFFEE_MACHINE_SMALL",
+    "brand_model": "BASE_MODEL",
+    "water_line": false
+  }
+},
+{
+  "model": "coffee_machines.coffeemachine",
+  "pk": 2,
+  "fields": {
+    "product_type": "COFFEE_MACHINE_SMALL",
+    "brand_model": "PREMIUM_MODEL",
+    "water_line": false
+  }
+},
+{
+  "model": "coffee_machines.coffeemachine",
+  "pk": 3,
+  "fields": {
+    "product_type": "COFFEE_MACHINE_SMALL",
+    "brand_model": "DELUXE_MODEL",
+    "water_line": true
+  }
+},
+{
+  "model": "coffee_machines.coffeemachine",
+  "pk": 4,
+  "fields": {
+    "product_type": "COFFEE_MACHINE_LARGE",
+    "brand_model": "BASE_MODEL",
+    "water_line": false
+  }
+},
+{
+  "model": "coffee_machines.coffeemachine",
+  "pk": 5,
+  "fields": {
+    "product_type": "COFFEE_MACHINE_LARGE",
+    "brand_model": "PREMIUM_MODEL",
+    "water_line": true
+  }
+},
+{
+  "model": "coffee_machines.coffeemachine",
+  "pk": 6,
+  "fields": {
+    "product_type": "COFFEE_MACHINE_LARGE",
+    "brand_model": "DELUXE_MODEL",
+    "water_line": true
+  }
+},
+{
+  "model": "coffee_machines.coffeemachine",
+  "pk": 7,
+  "fields": {
+    "product_type": "ESPRESSO_MACHINE",
+    "brand_model": "BASE_MODEL",
+    "water_line": false
+  }
+},
+{
+  "model": "coffee_machines.coffeemachine",
+  "pk": 8,
+  "fields": {
+    "product_type": "ESPRESSO_MACHINE",
+    "brand_model": "PREMIUM_MODEL",
+    "water_line": false
+  }
+},
+{
+  "model": "coffee_machines.coffeemachine",
+  "pk": 9,
+  "fields": {
+    "product_type": "ESPRESSO_MACHINE",
+    "brand_model": "DELUXE_MODEL",
+    "water_line": true
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 1,
+  "fields": {
+    "product_type": "COFFEE_POD_SMALL",
+    "coffee_flavor": "COFFEE_FLAVOR_VANILLA",
+    "pack_size": "1 dozen (12)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 2,
+  "fields": {
+    "product_type": "COFFEE_POD_SMALL",
+    "coffee_flavor": "COFFEE_FLAVOR_VANILLA",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 3,
+  "fields": {
+    "product_type": "COFFEE_POD_SMALL",
+    "coffee_flavor": "COFFEE_FLAVOR_CARAMEL",
+    "pack_size": "1 dozen (12)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 4,
+  "fields": {
+    "product_type": "COFFEE_POD_SMALL",
+    "coffee_flavor": "COFFEE_FLAVOR_CARAMEL",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 5,
+  "fields": {
+    "product_type": "COFFEE_POD_SMALL",
+    "coffee_flavor": "COFFEE_FLAVOR_PSL",
+    "pack_size": "1 dozen (12)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 6,
+  "fields": {
+    "product_type": "COFFEE_POD_SMALL",
+    "coffee_flavor": "COFFEE_FLAVOR_PSL",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 7,
+  "fields": {
+    "product_type": "COFFEE_POD_SMALL",
+    "coffee_flavor": "COFFEE_FLAVOR_MOCHA",
+    "pack_size": "1 dozen (12)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 8,
+  "fields": {
+    "product_type": "COFFEE_POD_SMALL",
+    "coffee_flavor": "COFFEE_FLAVOR_MOCHA",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 9,
+  "fields": {
+    "product_type": "COFFEE_POD_SMALL",
+    "coffee_flavor": "COFFEE_FLAVOR_HAZELNUT",
+    "pack_size": "1 dozen (12)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 10,
+  "fields": {
+    "product_type": "COFFEE_POD_SMALL",
+    "coffee_flavor": "COFFEE_FLAVOR_HAZELNUT",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 11,
+  "fields": {
+    "product_type": "COFFEE_POD_LARGE",
+    "coffee_flavor": "COFFEE_FLAVOR_VANILLA",
+    "pack_size": "1 dozen (12)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 12,
+  "fields": {
+    "product_type": "COFFEE_POD_LARGE",
+    "coffee_flavor": "COFFEE_FLAVOR_VANILLA",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 13,
+  "fields": {
+    "product_type": "COFFEE_POD_LARGE",
+    "coffee_flavor": "COFFEE_FLAVOR_CARAMEL",
+    "pack_size": "1 dozen (12)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 14,
+  "fields": {
+    "product_type": "COFFEE_POD_LARGE",
+    "coffee_flavor": "COFFEE_FLAVOR_CARAMEL",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 15,
+  "fields": {
+    "product_type": "COFFEE_POD_LARGE",
+    "coffee_flavor": "COFFEE_FLAVOR_PSL",
+    "pack_size": "1 dozen (12)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 16,
+  "fields": {
+    "product_type": "COFFEE_POD_LARGE",
+    "coffee_flavor": "COFFEE_FLAVOR_PSL",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 17,
+  "fields": {
+    "product_type": "COFFEE_POD_LARGE",
+    "coffee_flavor": "COFFEE_FLAVOR_MOCHA",
+    "pack_size": "1 dozen (12)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 18,
+  "fields": {
+    "product_type": "COFFEE_POD_LARGE",
+    "coffee_flavor": "COFFEE_FLAVOR_MOCHA",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 19,
+  "fields": {
+    "product_type": "COFFEE_POD_LARGE",
+    "coffee_flavor": "COFFEE_FLAVOR_HAZELNUT",
+    "pack_size": "1 dozen (12)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 20,
+  "fields": {
+    "product_type": "COFFEE_POD_LARGE",
+    "coffee_flavor": "COFFEE_FLAVOR_HAZELNUT",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 21,
+  "fields": {
+    "product_type": "ESPRESSO_POD",
+    "coffee_flavor": "COFFEE_FLAVOR_VANILLA",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 22,
+  "fields": {
+    "product_type": "ESPRESSO_POD",
+    "coffee_flavor": "COFFEE_FLAVOR_VANILLA",
+    "pack_size": "5 dozen (60)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 23,
+  "fields": {
+    "product_type": "ESPRESSO_POD",
+    "coffee_flavor": "COFFEE_FLAVOR_VANILLA",
+    "pack_size": "7 dozen (84)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 24,
+  "fields": {
+    "product_type": "ESPRESSO_POD",
+    "coffee_flavor": "COFFEE_FLAVOR_CARAMEL",
+    "pack_size": "3 dozen (36)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 25,
+  "fields": {
+    "product_type": "ESPRESSO_POD",
+    "coffee_flavor": "COFFEE_FLAVOR_CARAMEL",
+    "pack_size": "5 dozen (60)"
+  }
+},
+{
+  "model": "coffee_pods.coffeepod",
+  "pk": 26,
+  "fields": {
+    "product_type": "ESPRESSO_POD",
+    "coffee_flavor": "COFFEE_FLAVOR_CARAMEL",
+    "pack_size": "7 dozen (84)"
+  }
+}
+]
