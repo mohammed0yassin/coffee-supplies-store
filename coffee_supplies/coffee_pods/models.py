@@ -29,16 +29,16 @@ class CoffeePod(models.Model):
                                       choices=FLAVOR_CHOICES,
                                       default=flavor_vanilla)
 
-    one_dozen = '12'
-    three_dozen = '36'
-    five_dozen = '60'
-    seven_dozen = '84'
+    one_dozen = '1 dozen (12)'
+    three_dozen = '3 dozen (36)'
+    five_dozen = '5 dozen (60)'
+    seven_dozen = '7 dozen (84)'
     PACK_SIZE_CHOICES = (
         (one_dozen, '1 dozen'),
         (three_dozen, '3 dozen'),
         (five_dozen, '5 dozen'),
         (seven_dozen, '7 dozen'),
     )
-    pack_size = models.CharField(max_length=7,
+    pack_size = models.CharField(max_length=12,
                                       choices=PACK_SIZE_CHOICES,
                                       default=one_dozen)

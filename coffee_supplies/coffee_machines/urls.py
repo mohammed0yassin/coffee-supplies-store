@@ -6,5 +6,5 @@ router = DefaultRouter()
 router.register(r'', views.CoffeeMachineMangement)
 
 urlpatterns = [
-    path('machines/', include(router.urls)),
+    path('machine/', include(router.urls)),
 ]

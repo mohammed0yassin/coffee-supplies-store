@@ -6,6 +6,6 @@ router = DefaultRouter()
 router.register(r'', views.CoffeePodMangement)
 
 urlpatterns = [
-    path('pods/', include(router.urls)),
+    path('pod/', include(router.urls)),
 ]
 
